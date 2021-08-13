@@ -8,11 +8,13 @@
   },
   "main": "./dist/index.js",
   "scripts": {
+    "prepublishOnly": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
     "lint": "eslint src --ext ts",
     "pretest": "npm run compile",
-    "test": "node ./dist/test/runTest.js"
+    "test": "node ./dist/test/runTest.js",
+    "example": "cd dist/examples && node"
   },
   "keywords": [
     "IoC",
