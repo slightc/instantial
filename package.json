@@ -2,6 +2,10 @@
   "name": "instantial",
   "version": "1.0.0",
   "description": "instantial tools pick from vscode source",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slightc/instantial"
+  },
   "main": "./dist/index.js",
   "scripts": {
     "compile": "tsc -p ./",
