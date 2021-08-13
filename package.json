@@ -15,7 +15,8 @@
     "test": "node ./dist/test/runTest.js"
   },
   "keywords": [
-    "IOC"
+    "IoC",
+    "DI"
   ],
   "author": "slightc",
   "license": "MIT",
