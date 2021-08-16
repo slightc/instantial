@@ -1,7 +1,7 @@
 {
-  "name": "instantial",
+  "name": "instantialize",
   "version": "1.0.1",
-  "description": "instantial tools pick from vscode source",
+  "description": "instantialize tools pick from vscode source",
   "repository": {
     "type": "git",
     "url": "https://github.com/slightc/instantial"
