@@ -4,4 +4,4 @@ node_js:
 
 install: npm ci
 before_script: npm test
-script: npm compile
+script: npm run compile
